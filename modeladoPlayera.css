@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    align-items: flex-start;
+}
+
+.imagenPlayeraCat img{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    border: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#cambioImagen{
+    width: 40%;
+    height: auto;
+}
